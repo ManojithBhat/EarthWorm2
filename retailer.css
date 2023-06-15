@@ -1,0 +1,101 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.main{
+    display:flex;
+    /* flex-direction:; */
+}
+
+.search{
+  position:absolute;
+  right:0px;
+}
+
+.search1{
+    position:absolute;
+    right:100px;
+}
+.secondtab{
+    position:absolute;
+    top:60px;
+   
+
+}
+
+.buy h2{
+    font-size:60px;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .card {
+    /* float: left; */
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .description {
+    text-align: center;
+  }
+  
+  .description h3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .description p {
+    margin: 10px 0;
+  }
+  
+  .rating {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .buy-button {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .container2{
+    display:flex;
+position:absolute;
+top: 150px;
+justify-content:space-between;
+
+  }
+
+  .container3{
+
+    display:flex;
+    position:absolute;
+    top: 700px;
+    justify-content:space-between;
+
+  }
+
+  .container4{
+    display:flex;
+    position:absolute;
+    top: 1250px;
+    justify-content:space-between;
+  }
