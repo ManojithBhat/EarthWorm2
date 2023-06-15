@@ -1,0 +1,113 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+   
+}
+
+.inpo{
+    position:relative;
+    right:0px;
+
+}
+
+.mainbody{
+   display:flex;
+   flex-direction: column;
+}
+
+
+ .navo{
+    height:70px;
+    padding:34px;
+}
+.content-box {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    top: 70px;
+  }
+  
+  .background-image {
+    background-image: url('farmerpic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 20px;
+    color: black;
+    width:100%;
+    height:100%;
+
+  }
+
+  .background-image p {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    position:relative;
+    top:500px
+  }
+
+  /* crops section */
+  .container {
+    display: flex;
+  }
+  
+  .item {
+    flex: 1;
+    /* margin: 10px; */ 
+   /* height:50rem; */
+
+
+  }
+  
+  .item img {
+    width: 100%;
+    /* height: auto; */
+  }
+  
+  
+  
+
+  /* About us section */
+  .Aboutus{
+      background-color:rgb(168, 163, 163);
+      width:100%;
+      height: 18rem;
+     padding:250px 250px 175px 250px;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .Aboutus p{
+    font-style:italic;
+    font-size:medium;
+  }
+
+.scrolling{
+  width:100%;
+  height:30rem;
+}
+
+.im1{
+  height:30rem;
+
+}
+  
+  /* contact us section */
+  .contactus{
+    background-color:bisque;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+.content-contactus{
+  padding-top:50px;
+  padding-bottom:30px;
+}
+
